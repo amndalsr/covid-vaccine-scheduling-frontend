@@ -1,6 +1,6 @@
 import styles from "./Banner.module.css";
 
-function Banner() {
+export default function Banner() {
   return (
     <header className={styles.banner}>
       <img
@@ -10,5 +10,3 @@ function Banner() {
     </header>
   );
 }
-
-export default Banner;
