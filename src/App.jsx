@@ -5,7 +5,7 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <BrowserRouter>
-      <Menu />;
+      <Menu />
       <Banner />
     </BrowserRouter>
   );
