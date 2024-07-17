@@ -1,0 +1,16 @@
+/* Banner.module.css */
+.banner {
+    width: 100%;
+    height: 300px; /* ou qualquer altura desejada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ou object-fit: contain; se você quiser manter a proporção da imagem */
+  }
+  
