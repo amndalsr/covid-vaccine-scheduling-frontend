@@ -1,0 +1,18 @@
+.banner {
+  background-color: var(--azul-claro);
+  color: var(--azul-escuro);
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.banner p {
+  margin: 10px 0 0;
+  font-size: 20px;
+}
