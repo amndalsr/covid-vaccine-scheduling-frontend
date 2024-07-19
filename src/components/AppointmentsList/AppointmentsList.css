@@ -1,0 +1,70 @@
+.appointments-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--fonte-principal);
+  margin-bottom: 40px;
+}
+
+.appointment-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+}
+
+.appointment-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cor-fonte-principal);
+}
+
+.appointment-card p {
+  margin: 5px 0;
+  font-weight: 500;
+  color: var(--cor-fonte-principal);
+}
+
+.appointment-card .appointment-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-card .appointment-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.appointment-card button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-card button:first-child {
+  background-color: #6ec06e;
+}
+
+.appointment-card button:last-child {
+  background-color: #c26262;
+}
+
+.appointment-card button.green {
+  background-color: #6ec06e;
+}
+
+.appointment-card button.red {
+  background-color: #c26262;
+}
