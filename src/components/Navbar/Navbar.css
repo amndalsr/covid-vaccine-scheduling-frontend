@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar a {
+  color: var(--azul-escuro);
+  font-size: 18px;
+  margin: 15px 15px;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
