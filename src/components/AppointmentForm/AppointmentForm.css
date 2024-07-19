@@ -1,0 +1,86 @@
+.appointment-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--fonte-principal);
+  margin-bottom: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  flex-basis: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: var(--cor-fonte-principal);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: var(--cor-fonte-principal);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-group input:focus {
+  outline: 2px solid var(--azul-escuro);
+}
+
+.form-group .form-control {
+  flex: 1;
+  max-width: 100%;
+}
+
+.form-title {
+  flex-basis: 100%;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 700;
+  color: var(--cor-fonte-principal);
+}
+
+.error-message {
+  flex-basis: 100%;
+  color: rgb(249, 9, 9);
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0e3463dd;
+  cursor: pointer;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  width: 100%;
+}
+
+.react-datepicker-popper {
+  z-index: 2;
+}
